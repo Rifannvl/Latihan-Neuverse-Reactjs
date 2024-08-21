@@ -1,3 +1,14 @@
+import React from "react";
+import SectionHero from "../blocks/sectionHero";
+import Partner from "../blocks/sectionPartner";
+import Footer from "../components/Footer";
+
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Home</h1>;
+  return (
+    <>
+      <SectionHero />
+      <Partner />
+      <Footer />
+    </>
+  );
 }

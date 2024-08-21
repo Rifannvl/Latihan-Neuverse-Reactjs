@@ -2,7 +2,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        neuver: "#059669",
+      },
+    },
+    container: {
+      center: true,
+    },
   },
+
   plugins: [],
 };
